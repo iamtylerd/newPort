@@ -1,0 +1,33 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guilpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.0",
+    "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular-scroll-watch": "^0.6.1",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "jquery": "^3.1.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "materialize": "^1.0.0",
+    "materialize-css": "^0.97.7",
+    "particles.js": "^2.0.0",
+    "sticky": "^0.8.0"
+  }
+}

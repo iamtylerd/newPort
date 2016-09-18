@@ -1,0 +1,43 @@
+.headerImg {
+	margin: 0 auto;
+	max-width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	height: 100vh;
+	img {
+		align-self: center;
+		max-height: 100vh;
+		margin-top: -2rem;
+	}
+	button {
+		padding-bottom: 0;
+		display: flex;
+		border: none;
+		align-content: center;
+		background-color: transparent;
+		align-self: center;
+		max-width: 30%;
+		h6 {
+			margin: 0;
+			font-size: 1.5rem;
+			font-family: 'Nothing You Could Do', cursive;
+			display: inline-block;
+			align-self: center;
+		}
+		i {
+			align-self: center;
+			opacity: .75;
+		}
+	}
+}
+
+.navContainer {
+	height: 100vh;
+	background-color: salmon;
+}
+
+#moveUp {
+	display: inline-block;
+	top: -100vh;
+}
