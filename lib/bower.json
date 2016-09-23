@@ -1,0 +1,20 @@
+{
+  "name": "lib",
+  "description": "",
+  "main": "guilpfile.js",
+  "authors": [
+    "iamtylerd <tylerdanielphotography@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/iamtylerd/newPort",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "scrollmagic": "^2.0.5"
+  }
+}

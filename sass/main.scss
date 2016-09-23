@@ -1,3 +1,8 @@
+//Globals
+
+
+
+//Header
 .headerImg {
 	margin: 0 auto;
 	max-width: 60%;
@@ -31,13 +36,58 @@
 		}
 	}
 }
+// Fixed Nav
+#stickyNav {
+}
+
+#menuLogo {
+	margin-top: 0;
+	img {
+		max-width: 75%;
+	}
+}
+.menuInclude {
+	padding-right: 0 !important;
+}
 
 .navContainer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
 	height: 100vh;
-	background-color: salmon;
+	text-align: center !important;
 }
 
-#moveUp {
-	display: inline-block;
-	top: -100vh;
+.navEmail {
+	margin-bottom: 5px;
+	align-self: center;
+	position: absolute;
+	bottom: 0;
 }
+// Main container
+
+.aboutContainer {
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: #F2EDEB;
+	position: relative;
+		img {
+			max-width: 40%;
+			position: absolute;
+			bottom: 0;
+		}
+}
+.aboutImg {
+	width: 35%;
+}
+.aboutMe {
+	width: 50%;
+}
+.mainContainer {
+	padding: 0 !important;
+	display: flex;
+	flex-direction: column;
+}
+
+
