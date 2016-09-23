@@ -66,6 +66,14 @@
 }
 // Main container
 
+
+//About
+.mainContainer {
+	padding: 0 !important;
+	display: flex;
+	flex-direction: column;
+}
+
 .aboutContainer {
 	max-width: 100%;
 	display: flex;
@@ -84,10 +92,42 @@
 .aboutMe {
 	width: 50%;
 }
-.mainContainer {
-	padding: 0 !important;
+//Articles Photos
+.articlesPhotos {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
+
+.articles {
+	width: 50%;
+	background-color: #939DAE;
+}
+
+.photos {
+	width: 50%;
+	background-color: #757472;
+}
+
+//Portfolio
+.portfolioContainer {
+	display: flex;
+	flex-direction: row;
+	background-color: #B8B6A2;
+}
+
+.portGrid {
+	width: 70%;
+}
+
+.portText {
+	width: 30%;
+}
+
+
+
+
+
+
+
 
 
