@@ -86,21 +86,48 @@ $lightSand: #B8B6A2;
 	background-color: $lightSand;
 	position: relative;
 		img {
-			max-width: 40%;
+			max-width: 20%;
 			position: absolute;
 			bottom: 0;
 		}
 }
 .aboutImg {
-	width: 35%;
+	width: 25%;
 }
 .aboutMe {
-	width: 50%;
+	margin-right: 3rem;
+	width: 35%;
+}
+.techDiv {
+	max-width: 100%;
+	img {
+		position: relative;
+		max-width: 80%;
+	}
+}
+
+.enjoyList {
+	max-width: 35%;
+	// float: right;
+	ul {
+		margin-top: .25rem;
+		li {
+			font-size: 1rem;
+		}
+	}
 }
 //Articles Photos
 .articlesPhotos {
 	display: flex;
 	flex-direction: row;
+	p {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	ul {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
 }
 
 .articles {
