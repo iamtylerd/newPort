@@ -6,6 +6,10 @@ $sand: #BEBCA4;
 $lightSand: #B8B6A2;
 
 
+.rowNoMargin {
+	margin-bottom: 0;
+}
+
 
 //Header
 .headerImg {
@@ -147,12 +151,50 @@ $lightSand: #B8B6A2;
 	background-color: $lightSand;
 }
 
-.portGrid {
-	width: 70%;
+.gridContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 65%;
+	max-height: 550px;
+	margin: 2rem;
+	justify-content: space-around;
+	// max-height: 100%;
+}
+
+.photoGrid {
+	cursor: pointer;
+	max-width: 40%;
+	height: 30%;
+	display: flex;
+		img {
+			max-width: 100%;
+		}
 }
 
 .portText {
-	width: 30%;
+	width: 35%;
+}
+
+.githubLink {
+	display: block;
+}
+
+//footer
+
+.footer {
+	background-color: $darkGray;
+	height: 10rem;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+		a {
+			align-self: center;
+			font-size: 3rem;
+			color: white;
+		}
 }
 
 

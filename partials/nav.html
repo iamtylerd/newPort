@@ -5,12 +5,14 @@
 			</div>
 			<div id="navList">
 				<ul>
-					<li>About</li>
-					<li>Portfolio</li>
-					<li>Articles</li>
-					<li>Contact</li>
+					<li ng-click="scrollTo('about')">About</li>
+					<li ng-click="scrollTo('articles')">Articles/Photography</li>
+					<li ng-click="scrollTo('portfolio')">Portfolio</li>
+					<li ng-click="scrollTo('contact')">Contact</li>
 				</ul>
 			</div>
 			<span class="navEmail">tyler@tylerdaniel.com</span>
 		</div>
 </div>
+
+<!-- <li ng-click="gotoAnchor(x)" ng-repeat="x in [About, Articles/Photography, Portfolio, Contact]">{{x}}</li> -->
