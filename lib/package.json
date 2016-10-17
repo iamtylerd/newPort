@@ -28,6 +28,7 @@
     "materialize": "^1.0.0",
     "materialize-css": "^0.97.7",
     "particles.js": "^2.0.0",
-    "sticky": "^0.8.0"
+    "sticky": "^0.8.0",
+    "unsplash-js": "^4.2.0"
   }
 }

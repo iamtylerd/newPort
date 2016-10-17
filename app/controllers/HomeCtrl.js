@@ -20,11 +20,12 @@ $scope.projects = [{
 		"deployed": "http://www.dungeonsanddeadlifts.com",
 	},
 	{
-		"name": "Slack Clone",
-		"img": "app/assets/group-slack-clone.png",
-		"description": "A slack clone that holds a JSON file of data.  The messages can be customized and add/deletd",
-		"keyFeatures": "JSON, IIFE",
-		"github": "https://github.com/iamtylerd/spa-group-chatty-git-clone-slack",
+		"name": "Space Race",
+		"img": "app/assets/spacerace.png",
+		"description": "A multiplayer game that uses Node.js as a server, MongoDB as a database, Socket.io for multiple players and renders HTML view Pug.  The game can handle many games at once",
+		"keyFeatures": "Node.js, Socket.io, Pug, Redis, MongoDB, Express",
+		"github": "https://github.com/iamtylerd/space-race",
+		"deployed": "https://space-race-.herokuapp.com/"
 	},
 	{
 		"name": "Gauntlet",
