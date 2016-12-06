@@ -13,11 +13,12 @@ $scope.projects = [{
 		"deployed": "http://www.jttravels.co",
 	},
 	{
-		"name": "Dungeons and Deadlifts",
-		"img": "app/assets/dungeons.png",
-		"description": "A fitness / gaming blog I built using Wordpress that I customized",
-		"keyFeatures": "Wordpress, jQuery, JavaScript",
-		"deployed": "http://www.dungeonsanddeadlifts.com",
+		"name": "Eventics",
+		"img": "app/assets/Eventics_Loop.gif",
+		"description": "An event based photo sharing App, built with Ionic for iOS and Android",
+		"keyFeatures": "Node.js, Ionic, Angular, sass, Redis, MongoDB, AWS, Auto-updating from server side",
+		"github": "https://github.com/iamtylerd/Eventics",
+		"deployed": "http://www.tylerdaniel.com/eventics"
 	},
 	{
 		"name": "Space Race",
@@ -28,18 +29,18 @@ $scope.projects = [{
 		"deployed": "https://space-race-.herokuapp.com/"
 	},
 	{
+		"name": "Dungeons and Deadlifts",
+		"img": "app/assets/dungeons.png",
+		"description": "A fitness / gaming blog I built using Wordpress that I customized",
+		"keyFeatures": "Wordpress, jQuery, JavaScript",
+		"deployed": "http://www.dungeonsanddeadlifts.com",
+	},
+	{
 		"name": "Gauntlet",
 		"img": "app/assets/group-gauntlet.png",
 		"description": "A game that focues on prototypal inheritance.  Every class is dependent on the race and weapons are dependent on class.",
 		"keyFeatures": "Browserify, lodash",
 		"github": "https://github.com/iamtylerd/gauntlet-team-decapitation",
-	},
-	{
-		"name": "Terminal calendar built with Node",
-		"img": "app/assets/node-cal.png",
-		"description": "A calendar that mimics the node cal.  This was built with the testing first idea",
-		"keyFeatures": "Node, Chai, Mocha, Istanbul",
-		"github": "https://github.com/iamtylerd/node-cal-zeller-can-kiss-my-ass",
 	},
 	{
 		"name": "Twitch Bot",

@@ -248,6 +248,88 @@ h3, h4 {
 }
 
 
+// Media Queries
+
+@media (max-width: 800px) {
+	.headerImg {
+		display: flex;
+		justify-content: center;
+		height: 100vh;
+	}
+	.headerImg img {
+		height: 50vh;
+	}
+	.menuInclude {
+		display: none;
+	}
+	#stickyNav {
+		display: none;
+	}
+	#mainContainerSmall {
+		width: 100% !important;
+	}
+	#contact {
+		width: 100% !important;
+	}
+	.aboutContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.aboutMe {
+		width: 80% !important;
+		margin: 0;
+	}
+	.enjoyList {
+		max-width: 80% !important;
+		display: flex;
+		flex-direction: column;
+	}
+	.aboutImg {
+		display: none !important;
+	}
+	#listofEnjoy {
+		columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+	}
+	.articlesPhotos {
+		width: 100% !important;
+		flex-direction: column;
+	}
+	.articles, .photos {
+		width: 100% !important;
+	}
+	.portfolioContainer {
+		display: none;
+	}
+	#mobilePort {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	#mobilePort img {
+		max-width: 40%;
+		max-height: 40%;
+	}
+	#singleMobileProj {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2%;
+	}
+}
+
+@media (min-width: 800px) {
+	#mobilePort {
+		display: none;
+	}
+}
+
+
 
 
 

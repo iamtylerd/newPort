@@ -5,7 +5,7 @@
     <div class="menuInclude col s2" id="">
         <div ng-include="'partials/nav.html'"></div>
     </div>
-    <div class="mainContainer col s10">
+    <div class="mainContainer col s10" id="mainContainerSmall">
 
 			<div class="aboutContainer" id="about">
 					<div class="aboutImg">
@@ -20,7 +20,7 @@
 					</div>
 						<div class="enjoyList">
 							<h4>Things I enjoy</h4>
-							<ul>
+							<ul id="listofEnjoy">
 								<li>Sports (I play in a wood bat baseball league and a weekly basketball league)</li>
 								<li>Movies/Tv</li>
 								<li>Technology</li>
@@ -70,6 +70,18 @@
 					<h6>{{projectFeatures}}</h6>
 					<a class="githubLink" ng-href={{projectGithubLink}}>{{github}}</a>
 					<a ng-href={{projectDeployedLink}}>{{deployed}}</a>
+				</div>
+			</div>
+			<!-- Mobile Port -->
+			<div id="mobilePort">
+				<div id="singleMobileProj" ng-repeat="project in projects|limitTo:3">
+				<h5>{{project.name}}</h5>
+				<img ng-src={{project.img}} />
+				<blockquote>
+					<p>{{project.description}}</p>
+				</blockquote>
+				<a class="githubLink" ng-href={{project.github}}>View on Github</a>
+				<a ng-href={{project.deployed}}>See it Live!</a>
 				</div>
 			</div>
     </div>
