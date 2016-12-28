@@ -12,14 +12,14 @@
 						<img src="app/assets/about.png"/>
 					</div>
 					<div class="aboutMe">
-						<h4>About Me</h4>
+						<h3>About Me</h3>
 						<p>I am a full stack developer with an emphasis on Node.js and Angular.  I like to work with sass, pug templating, TDD, modular code, and I tend to self document heavily.  You will see below, some of the technologies that I enjoy working with.</p>
 						<div class="techDiv">
 							<img src="app/assets/tech.png"/>
 						</div>
 					</div>
 						<div class="enjoyList">
-							<h4>Things I enjoy</h4>
+							<h3>Things I enjoy</h3>
 							<ul id="listofEnjoy">
 								<li>Sports (I play in a wood bat baseball league and a weekly basketball league)</li>
 								<li>Movies/Tv</li>
@@ -75,6 +75,7 @@
 			</div>
 			<!-- Mobile Port -->
 			<div id="mobilePort">
+				<h3>Portolio</h3>
 				<div id="singleMobileProj" ng-repeat="project in projects|limitTo:3">
 				<h5>{{project.name}}</h5>
 				<img ng-src={{project.img}} />
